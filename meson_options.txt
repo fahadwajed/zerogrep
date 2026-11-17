@@ -1,0 +1,6 @@
+option(
+  'release',
+  type: 'boolean',
+  value: false,
+  description: 'Build with cargo --release (packaging passes -Drelease=true)',
+)

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Zerogrep
+Comment=High-performance zero-copy log diagnostics for Linux
+Exec=zerogrep
+Icon=com.zerogrep.app
+Terminal=false
+Categories=Development;Logging;
+Keywords=logs;log;grep;filter;search;highlight;

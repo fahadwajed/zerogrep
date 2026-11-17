@@ -1,0 +1,17 @@
+[package]
+name = "zerogrep"
+version = "0.2.0"
+edition = "2024"
+
+[dependencies]
+relm4 = { version = "0.11", features = ["libadwaita"] }
+gtk = { version = "0.11", package = "gtk4", features = ["v4_14"] }
+adw = { version = "0.9", package = "libadwaita", features = ["v1_5"] }
+glib = "0.22"
+gio = "0.22"
+memmap2 = "0.9"
+memchr = "2.7"
+regex = "1.10"
+tokio = { version = "1", features = ["rt-multi-thread"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

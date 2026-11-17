@@ -1,0 +1,18 @@
+# Rust / cargo
+/target
+
+# Meson build directories
+build/
+builddir/
+build-*/
+builds/   # GNOME Builder
+
+# Generated icon previews
+assets/preview-*.png
+
+# Editor / OS noise
+*.swp
+*~
+.idea/
+.vscode/
+.DS_Store
